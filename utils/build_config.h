@@ -1,9 +1,5 @@
 #pragma once
 
-// build_config.h
-// Single place to control optional (alternative) optimized paths.
-// IMPORTANT: Defaults are set to preserve the current execution flow.
-
 // ---------------------------
 // Profiling / instrumentation
 // ---------------------------
