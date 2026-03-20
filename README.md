@@ -1,10 +1,10 @@
-# STORM-C
+# STORM
 
 Embedded transformer inference engine in pure C for Human Activity Recognition (HAR) on resource-constrained microcontrollers.
 
 ## Overview
 
-STORM-C implements a quantized Transformer (TinyTransformer) as a **header-only C library**, designed for edge inference on RISC-V platforms (X-HEEP). It classifies IMU sensor data (accelerometer + gyroscope) into 8 activity categories using INT8 quantized weights and activations.
+STORM implements a quantized Transformer (TinyTransformer) as a **header-only C library**, designed for edge inference on RISC-V platforms (X-HEEP). It classifies IMU sensor data (accelerometer + gyroscope) into 8 activity categories using INT8 quantized weights and activations.
 
 ## Architecture
 
