@@ -1,4 +1,4 @@
-# STORM-C
+# STORM
 
 Embedded transformer inference engine in pure C for Human Activity Recognition (HAR) on resource-constrained microcontrollers.
 
