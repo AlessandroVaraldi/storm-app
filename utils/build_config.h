@@ -18,15 +18,12 @@
 // ---------------------------
 // External FLASH transfers
 // ---------------------------
-#ifndef FLASH_USE_QUAD
-#define FLASH_USE_QUAD 1
+#ifndef USE_FLASH
+#define USE_FLASH 0
 #endif
 
-// ---------------------------
-// Preloading constants
-// ---------------------------
-#ifndef PRELOAD_CONSTANTS_EACH_INFERENCE
-#define PRELOAD_CONSTANTS_EACH_INFERENCE 0
+#ifndef FLASH_USE_QUAD
+#define FLASH_USE_QUAD 1
 #endif
 
 // ---------------------------
@@ -37,8 +34,10 @@
 #endif
 
 // ---------------------------
-// Model data storage location
+// Preloading constants
 // ---------------------------
-#ifndef USE_FLASH
-#define USE_FLASH 0
+#ifndef PRELOAD_CONSTANTS_EACH_INFERENCE
+#define PRELOAD_CONSTANTS_EACH_INFERENCE 0
 #endif
+
+
